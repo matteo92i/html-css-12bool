@@ -1,0 +1,13 @@
+[class*=col]{
+    border: 2px solid black;
+    height: 100px;
+    background-color: pink;
+    line-height: 100px;
+    text-align: center;
+}
+[ class*=col] > .row > [ class*=col]{
+    height: 100%;
+}
+.row{
+    height: 100%;
+}
